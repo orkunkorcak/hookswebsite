@@ -1,0 +1,44 @@
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--orange);
+  transition: opacity 0.3s;
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  border-radius: 50%;
+  border: 1px solid rgba(47, 183, 217, 0.7);
+  transition:
+    opacity 0.3s,
+    width 0.35s var(--ease),
+    height 0.35s var(--ease),
+    margin 0.35s var(--ease),
+    background 0.3s;
+}
+
+.cursor-ring.is-active {
+  width: 76px;
+  height: 76px;
+  margin: -38px 0 0 -38px;
+  background: rgba(47, 183, 217, 0.12);
+}
+
+.cursor-dot.is-visible,
+.cursor-ring.is-visible {
+  opacity: 1;
+}
