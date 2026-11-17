@@ -6,9 +6,9 @@ import Floaters from './Floaters.jsx'
 
 // Kullandığın teknolojilere göre bu listeyi düzenle.
 const LAYERS = [
-  { name: 'Arayüz', side: 'client', items: ['React', 'TypeScript', 'Vite', 'Modern CSS'] },
+  { name: 'Arayüz', side: 'client', items: ['React', 'JavaScript', 'Vite', 'Modern CSS'] },
   { name: 'Sunucu', side: 'server', items: ['Node.js', 'REST API', 'WebSocket', 'Kimlik doğrulama'] },
-  { name: 'Veri', side: 'server', items: ['PostgreSQL', 'Redis', 'Yedekleme'] },
+  { name: 'Veri', side: 'server', items: ['SQL', 'Redis', 'Yedekleme'] },
   { name: 'Yayın', side: 'server', items: ['Docker', 'CI/CD', 'Nginx', 'İzleme'] },
 ]
 

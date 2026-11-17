@@ -2,7 +2,7 @@ import { useLayoutEffect, useRef } from 'react'
 import { gsap, MOTION_OK } from '../lib/gsap.js'
 
 const ROWS = [
-  ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'Redis', 'WebSocket', 'Three.js', 'GSAP', 'REST API'],
+  ['React', 'JavaScript', 'Node.js', 'PostgreSQL', 'Docker', 'Redis', 'WebSocket', 'Three.js', 'GSAP', 'REST API','MongoDB', 'Next.js', 'Vite', 'Webpack', 'ESLint', 'Prettier'],
   ['Arayüz', 'Sunucu', 'Veri', 'Yayın', 'Bakım', 'Güvenlik', 'Hız', 'Erişilebilirlik'],
 ]
 
