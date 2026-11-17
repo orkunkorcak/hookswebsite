@@ -5,12 +5,64 @@ import { Words } from './Split.jsx'
 import Floaters from './Floaters.jsx'
 
 // Kullandığın teknolojilere göre bu listeyi düzenle.
+
 const LAYERS = [
-  { name: 'Arayüz', side: 'client', items: ['React', 'JavaScript', 'Vite', 'Modern CSS'] },
-  { name: 'Sunucu', side: 'server', items: ['Node.js', 'REST API', 'WebSocket', 'Kimlik doğrulama'] },
-  { name: 'Veri', side: 'server', items: ['SQL', 'Redis', 'Yedekleme'] },
-  { name: 'Yayın', side: 'server', items: ['Docker', 'CI/CD', 'Nginx', 'İzleme'] },
-]
+  {
+    name: "Arayüz",
+    side: "client",
+    items: [
+      "React",
+      "JavaScript",
+      "Vite",
+      "HTML5",
+      "CSS3",
+      "Modern CSS",
+      "React Router",
+      "Axios",
+    ],
+  },
+  {
+    name: "Durum ve Form Yönetimi",
+    side: "client",
+    items: ["Redux Toolkit", "React Redux", "Context API", "Formik", "Yup"],
+  },
+  {
+    name: "Sunucu",
+    side: "server",
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST API",
+      "JWT",
+      "Cookie Management",
+      "Session Management",
+      "CORS",
+      "Kimlik Doğrulama",
+    ],
+  },
+  {
+    name: "Veri",
+    side: "server",
+    items: [
+      "MongoDB",
+      "Mongoose",
+      "Database Modeling",
+      "Aggregation",
+      "Data Validation",
+    ],
+  },
+  {
+    name: "Entegrasyonlar",
+    side: "server",
+    items: ["iyzico", "SMTP", "Brevo", "Payment Integration", "Email Services"],
+  },
+  {
+    name: "Yayın ve DevOps",
+    side: "server",
+    items: ["Git", "GitHub", "Vercel", "Render", "Cloudflare", "CI/CD"],
+  },
+];
+
 
 const FLOATS = [
   { glyph: '=>', x: '88%', y: '8%', size: '4.5rem', speed: 1.2, rot: 25 },

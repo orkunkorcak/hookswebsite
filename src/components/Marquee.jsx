@@ -1,10 +1,49 @@
 import { useLayoutEffect, useRef } from 'react'
 import { gsap, MOTION_OK } from '../lib/gsap.js'
 
+
 const ROWS = [
-  ['React', 'JavaScript', 'Node.js', 'PostgreSQL', 'Docker', 'Redis', 'WebSocket', 'Three.js', 'GSAP', 'REST API','MongoDB', 'Next.js', 'Vite', 'Webpack', 'ESLint', 'Prettier'],
-  ['Arayüz', 'Sunucu', 'Veri', 'Yayın', 'Bakım', 'Güvenlik', 'Hız', 'Erişilebilirlik'],
-]
+  [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "Redux Toolkit",
+    "REST API",
+    "Vite",
+    "React Router",
+    "Axios",
+    "Formik",
+    "Yup",
+    "HTML5",
+    "CSS3",
+    "Three.js",
+    "GSAP",
+    "iyzico",
+    "JWT",
+    "Cloudflare",
+  ],
+  [
+    "Full-Stack Development",
+    "Web Application",
+    "Frontend Development",
+    "Backend Development",
+    "Database Architecture",
+    "API Integration",
+    "Payment Integration",
+    "Authentication",
+    "Responsive Design",
+    "Performance Optimization",
+    "Security",
+    "UI/UX",
+    "Deployment",
+    "Scalable Architecture",
+    "Modern Web Technologies",
+  ],
+];
+
 
 function Set({ items, hidden }) {
   return (

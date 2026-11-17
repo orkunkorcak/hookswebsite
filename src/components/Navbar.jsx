@@ -59,7 +59,7 @@ export default function Navbar({ ready }) {
       <div className="wrap nav__inner">
         <a className="nav__brand" href="#top" onClick={close}>
           <img src="/logo-mark.png" alt="" width="38" height="34" />
-          <span>Hooks</span>
+          <span>Hooks Software Solutions</span>
         </a>
 
         <button
