@@ -45,6 +45,8 @@ export default function Contact() {
           </p>
           <p className="direct" data-reveal="fade">
             WhatsApp üzerinden yazmak istersen: <a href={`https://wa.me/${CONTACT_WHATSAPP}`} target="_blank" rel="noreferrer">WhatsApp’ta sohbet et</a>
+            <br />
+            E-posta: <a href="mailto:info@hookssoftwaresolutions.com">info@hookssoftwaresolutions.com</a>
           </p>
         </div>
 
