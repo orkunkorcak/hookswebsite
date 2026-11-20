@@ -78,8 +78,8 @@ export default function Hero({ ready }) {
           </span>
         </h1>
         <p className="hero__lead">
-          Hooks Software Solutions yalnızca web uygulaması geliştirir. Arayüzü, sunucuyu ve veritabanını tek elden
-          kurar, yayına alır ve bakımını yapar.
+          Hooks Software Solutions her ekrana uyum sağlayan web uygulamaları geliştirir. Mobilde de masaüstünde de
+          rahat çalışan arayüzleri; sunucu ve veritabanıyla birlikte kurar, yayına alır ve bakımını yapar.
         </p>
         <div className="hero__actions">
           <Btn href="#iletisim">Projeni anlat</Btn>

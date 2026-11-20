@@ -205,7 +205,7 @@ export default function Services() {
               çalıştığını baştan biliyoruz.
             </p>
             <p className="boundary" data-reveal="fade">
-              Mobil uygulama ve masaüstü yazılımı geliştirmiyoruz.
+              Yerel mobil uygulama değil; telefon, tablet ve bilgisayarda çalışan web uygulamaları geliştiriyoruz.
             </p>
           </div>
         </div>
